@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 50px;
+    font: 400 14px 'Roboto', sans-serif;
+    background-color: #f6f6f6 !important; 
+    -webkit-font-smoothing: antialiased;
+}
+
+input, button, textarea{
+    font: 400 18px 'Roboto', sans-serif;
+}
+
+button{
+    cursor: pointer;
+}
+
+form input{
+    width: 100%;
+    height: 60px;
+    color: #333;
+    border:1px solid #dcdce6;
+    border-radius: 8px;
+    padding: 0 24px;
+}
+
+form textarea{
+    resize: vertical;
+    width: 100%;
+    min-height: 140px;
+    color: #333;
+    border:1px solid #dcdce6;
+    border-radius: 8px;
+    padding: 16px 24px;
+    line-height: 24px;
+}
+
+.logo{
+    padding: 15px 0px;
+    font-size: 24px;
+    color: #E02041;
+    font-weight: 700;
+}
+
+.boxMenu{
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border-bottom: 5px solid #E02041;
+    border-top: 5px solid #E02041;
+}
+
+.boxMenu ul{
+    padding-left: 0px;
+    list-style: none;
+}
+
+.boxMenu ul li{
+    color: #fff;
+    margin: 2px 0px;
+    padding: 3px;
+}
+
+.boxMenu ul li a{
+    color: #333;
+}
+.boxMenu ul li a:hover{
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+.buscaFeita{
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border-bottom: 5px solid #E02041;
+    border-top: 5px solid #E02041;
+}
+
+h1.title{
+    background-color: #fff;
+    display: inline-block;
+    width: 100%;
+    color: #E02041;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0px;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    border-bottom: 5px solid #E02041;
+    border-top: 5px solid #E02041;
+}
+
+.blocoFilme{
+    position: relative;
+    display: inline-block;
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    width: 100%;
+    color: #333;
+    border-bottom: 5px solid #a2041f;
+    border-top: 5px solid #a2041f;
+}
+
+.blocoFilme:hover{
+    text-decoration: none;
+    border-bottom: 5px solid #E02041;
+    border-top: 5px solid #E02041;
+    color: #a2041f;
+}
+
+.blocoFilme h2{
+    font-size: 16px;
+    min-height: 40px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.blocoFilme img{
+    margin: 5px 0px;
+    max-height: 200px;
+    display: inline-block;
+}
+
+.blocoFilme .nota{
+    background-color: #fff;
+    border:1px solid #a2041f;
+    padding: 5px;
+    color: #a2041f;
+    position: absolute;
+    left: 20px;
+    top: 80px;
+    border-radius: 5px;
+    z-index: 2;
+    display: inline-block;
+}
+
+.blocoFilme .nota svg{
+    margin-right: 15px;
+}
+
+.blocoFilme .data{
+    color: #aeaeae;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.filmeContainer{
+    background-size: cover;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.movieBox{
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border-bottom: 5px solid #E02041;
+    border-top: 5px solid #E02041;
+}
